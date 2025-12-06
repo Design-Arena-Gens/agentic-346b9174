@@ -1,0 +1,128 @@
+═══════════════════════════════════════════════════════════════════
+  REAL TIME STANCER FOR ASSETTO CORSA - INSTALLATION GUIDE
+═══════════════════════════════════════════════════════════════════
+
+📦 WHAT YOU DOWNLOADED:
+This mod adds real-time stance adjustment to Assetto Corsa, similar
+to VStancer in GTA V. Adjust wheel offset, track width, camber, and
+ride height while driving!
+
+═══════════════════════════════════════════════════════════════════
+
+⚠️  REQUIREMENTS:
+✓ Assetto Corsa (any version)
+✓ Custom Shaders Patch (CSP) v0.1.80 or HIGHER
+✓ Content Manager (recommended but not required)
+
+═══════════════════════════════════════════════════════════════════
+
+📂 INSTALLATION STEPS:
+
+STEP 1: Locate Your Assetto Corsa Folder
+────────────────────────────────────────────────────────────────────
+Default locations:
+• Steam: C:\Program Files (x86)\Steam\steamapps\common\assettocorsa
+• Non-Steam: C:\Program Files\Assetto Corsa
+
+Your AC folder should contain:
+  ✓ AssettoCorsa.exe
+  ✓ content folder
+  ✓ system folder
+
+STEP 2: Extract the Mod
+────────────────────────────────────────────────────────────────────
+1. Extract the "content" folder from this archive
+2. Copy it to your Assetto Corsa root folder
+3. When prompted, choose "Merge" or "Yes to all"
+
+Your final structure should be:
+  assettocorsa/
+  └── content/
+      └── apps/
+          └── lua/
+              └── RealTimeStancer/
+                  ├── app.lua
+                  ├── config_presets.json
+                  ├── manifest.ini
+                  └── ui/
+                      └── layout.ini
+
+STEP 3: Enable Lua Scripts in CSP
+────────────────────────────────────────────────────────────────────
+Open Content Manager:
+1. Settings → Custom Shaders Patch
+2. General Patch Settings → scroll to "Lua"
+3. Enable "Enable Lua App Scripts" (check the box)
+4. Click "Save" at the bottom
+
+STEP 4: Launch and Enable in Game
+────────────────────────────────────────────────────────────────────
+1. Start Assetto Corsa (with CSP enabled)
+2. Enter any track (Practice, Hotlap, Race - NOT Showroom)
+3. Click the CSP Apps icon (usually top right)
+4. Find "Real Time Stancer" in the list
+5. Click to enable it
+6. A new window will appear with controls
+
+═══════════════════════════════════════════════════════════════════
+
+🎮 HOW TO USE:
+
+BASIC CONTROLS:
+• Select wheel: FL, FR, RL, RR buttons
+• Use sliders to adjust:
+  - Wheel Offset (-100 to +100 mm)
+  - Track Width (-100 to +100 mm)
+  - Camber (-10 to +10 degrees)
+  - Ride Height (-50 to +50 mm)
+
+PRESETS:
+• Save: Type name → click "Save Preset"
+• Load: Click "Load Preset" or use quick buttons
+• Delete: Use "Delete" button next to preset name
+
+TIPS:
+• Start with small adjustments (±10-20mm)
+• Negative camber = wheels lean inward
+• Negative ride height = lower to ground
+• Track width = how wide the wheels are apart
+
+═══════════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING:
+
+PROBLEM: App doesn't appear in game
+SOLUTION:
+  → Check CSP version (must be 0.1.80+)
+  → Enable Lua scripts in Content Manager settings
+  → Restart Assetto Corsa completely
+
+PROBLEM: Changes don't apply to car
+SOLUTION:
+  → Enable "Enable Real-Time Adjustments" checkbox
+  → Try different car (some cars may have limits)
+  → Reset values and try again
+
+PROBLEM: Can't save presets
+SOLUTION:
+  → Run AC/Content Manager as Administrator
+  → Check folder permissions
+  → Make sure config_presets.json exists and is writable
+
+═══════════════════════════════════════════════════════════════════
+
+📝 NOTES:
+
+• Changes are VISUAL and reset when you restart
+• Works in GAMEPLAY only (not showroom mode)
+• Each car may need different settings
+• Extreme values may cause visual glitches
+• Presets are saved globally (not per-car)
+
+═══════════════════════════════════════════════════════════════════
+
+🎉 ENJOY YOUR STANCED BUILDS!
+
+Need help? Check the Assetto Corsa modding forums or CSP Discord.
+
+═══════════════════════════════════════════════════════════════════

@@ -1,0 +1,29 @@
+═══════════════════════════════════════════════════════════════════
+               REAL TIME STANCER - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════════
+
+✅ 3-STEP INSTALLATION:
+
+1. Extract "content" folder → Copy to Assetto Corsa root folder
+2. Content Manager → Settings → CSP → Enable "Lua App Scripts"
+3. In-game → Apps menu → Enable "Real Time Stancer"
+
+═══════════════════════════════════════════════════════════════════
+
+🎮 CONTROLS:
+
+Select Wheel: FL | FR | RL | RR
+
+Adjustments:
+  • Offset:      -100 to +100 mm  (forward/back)
+  • Track Width: -100 to +100 mm  (in/out)
+  • Camber:      -10 to +10 deg   (wheel angle)
+  • Ride Height: -50 to +50 mm    (up/down)
+
+Save/Load: Use preset buttons at bottom
+
+═══════════════════════════════════════════════════════════════════
+
+⚠️  REQUIREMENTS: CSP 0.1.80+
+
+═══════════════════════════════════════════════════════════════════
